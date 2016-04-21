@@ -1,0 +1,16 @@
+This directory contains two python programs that extract information from the reuters articles located at 
+~srini/WWW/674/public/reuters on osu cse stdlinux.
+
+-Directory Contents-
+knear.py: kmeans classification and analysis
+dtree.py: dtree classification and analysis
+report.docx: design and discussion report
+readme
+makefile
+
+-Run Instructions-
+KNearestNeighbors
+	make knear
+
+DecisionTree
+	make dtree

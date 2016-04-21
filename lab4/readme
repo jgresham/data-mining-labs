@@ -1,0 +1,12 @@
+This directory contains two python programs that extract information from the reuters articles located at 
+~srini/WWW/674/public/reuters on osu cse stdlinux.
+
+-Directory Contents-
+minhashing.py: implementation of minhashing and jaccard estimation
+lab4.py: uses feature vectors and minhashing
+report.docx: design and discussion report
+readme
+makefile
+
+-Run Instructions-
+make lab4

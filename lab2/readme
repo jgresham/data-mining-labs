@@ -1,0 +1,29 @@
+This directory contains two python programs that extract information from the reuters articles located at 
+~srini/WWW/674/public/reuters on osu cse stdlinux.
+
+-Directory Contents-
+kmeans.py: kmeans clustering and analysis
+dbscan.py: dbscan clustering and analysis
+report.docx: design and discussion report
+readme
+makefile
+
+-Run Instructions-
+KMeans
+	for a smaller test sample run:
+		make km_test
+	for a larger sample (~3K samples  or 400sec on stdlinux):
+		make km_all
+	
+	to use the cosine simularity just modify the command to "make km_test_cs" and "make km_all_cs"
+
+	output showing the number of samples for each topic in each cluster and other statistics will be shown in the console.
+DBSCAN
+	for a smaller test sample run:
+		make db_test
+	for a larger sample (~3K samples or 400sec on stdlinux):
+		make db_all
+	
+	to use the cosine simularity just modify the command to "make db_test_cs" and "make db_all_cs"
+
+	output showing the number of samples for each topic in each cluster and other statistics will be shown in the console.

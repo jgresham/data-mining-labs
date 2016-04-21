@@ -1,0 +1,34 @@
+This directory contains two python programs that extract information from the reuters articles located at 
+~srini/WWW/674/public/reuters on osu cse stdlinux. It contains four output files, a makefile, and a report
+document.
+
+-Directory Contents-
+lab1_1.py: first program (word frequency feature vecotrs)
+lab1_2.py: second program (tf-idf feature vecotrs)
+final_output_1.txt: all article vectors
+final_output_2.txt: all article vectors
+output_1.txt: most recent first program output
+output_2.txt: most recent second program output
+report.docx: design and discussion report
+readme
+makefile
+
+-Run Instructions-
+To run the program that produces the FIRST feature vector,
+	for a small sample (20):
+		make test1
+	for all (20K+):
+		make all1
+
+	and to view the output:
+		less /home/7/gresham/5243/lab1/output_1.txt
+
+To run the program that produces the SECOND feature vector,
+	for a small sample (20):
+		make test2
+	for all (20K+):
+		make all2
+	
+	and to view the output:
+		less /home/7/gresham/5243/lab1/output_2.txt
+
